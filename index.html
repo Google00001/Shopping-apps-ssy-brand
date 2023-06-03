@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animated Home Page</title>
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .hero {
+      position: relative;
+      background-color: #f5f5f5;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    
+    .hero h1 {
+      font-size: 4rem;
+      color: #3366ff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 0;
+      padding: 0;
+      animation: rotate 5s infinite;
+    }
+    
+    .circle {
+      position: absolute;
+      background-color: #3366ff;
+      border-radius: 50%;
+      opacity: 0.2;
+      pointer-events: none;
+      transform: scale(0);
+      animation: circleAnimation 3s infinite;
+    }
+    
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes circleAnimation {
+      0% {
+        transform: scale(0);
+        opacity: 0.2;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(0);
+        opacity: 0.2;
+      }
+    }
+  </style>
+</head>
+<body bgcolor="aqua">
+  <div class="hero">
+    <h1>WELCOME in SSY BRAND</h1>
+    <div class="circle"></div>
+  </div><br><b><h1> Click Here To  </b></h1>
+  <a href="https://satyam914.github.io/SATYAM-SINGH-YADAV-APPS/ "<center><h1><u><b>Continew Shopping</h1></center>
+</a></body>
+</html>
